@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Search</title>
+    <link rel="icon" type="image/x-icon" href="./icon.png">
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header">Image Search</h1>
+      <form>
+        <div class="input-container">
+          <label for="search">q: </label>
+          <input
+            id="search"
+            type="text"
+            name="search"
+            placeholder="Search something"
+          />
+        </div>
+        <div class="input-container">
+          <label for="search">page: </label>
+          <input
+            id="page"
+            type="number"
+            name="page"
+            placeholder="Number of page"
+          />
+        </div>
+
+        <div class="form-buttons">
+          <button>Submit</button>
+          <button id="recentSearch" type="button">Get Recent Search</button>
+        </div>
+      </form>
+      <div class="endpoint"><h3 id="endpoint"></h3></div>
+      <pre>
+        <code id="output"></code>
+      </pre>
+      <footer>
+        <ul>
+          <li>freeCodeCamp task: Build an Image Search Abstraction Layer</li>
+          <li>
+            You can search images data, just write into q parameter a term to
+            search.
+          </li>
+          <li>You can change page with page parameter.</li>
+          <li>You can get the most recent searches.</li>
+          <li>If you want to know more about this app, go to <a href="https://github.com/jbs-code/image-search" target="_blank">GitHub</a>.</li>
+        </ul>
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

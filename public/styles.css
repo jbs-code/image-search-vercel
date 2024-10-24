@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: radial-gradient(
+    circle at 104.17% 95.45%,
+    #68b500 0,
+    #49ac0b 25%,
+    #20a01c 50%,
+    #009426 75%,
+    #00892e 100%
+  );
+  font-family: "Nunito", sans-serif;
+  color: white;
+  align-content: center;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  text-shadow: 0px 2px rgba(0, 0, 0, 0.5);
+}
+
+h3,
+labe,
+ul {
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.5);
+}
+
+a{
+  color: #003110;
+  transition: all ease 0.2s;
+}
+
+a:hover{
+  color: white;
+}
+
+label {
+    font-weight: 600;
+    height: fit-content;
+}
+
+ul{
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+form {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 7px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 45%;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  text-shadow: 0px 1px rgba(0, 0, 0, 1);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+  padding: 4px 8px;
+  background-color: #df8116;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  transition: all ease 0.3s;
+}
+
+button:hover {
+  background-color: #a05d10;
+}
+
+button:active {
+  background-color: white;
+  color: #df8116;
+}
+
+input {
+  padding: 8px;
+  width: 80%;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+  transition: all ease 0.15s;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input:focus {
+  outline: 3px solid #df8116;
+  /* outline: #98dbac; */
+}
+
+code {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 300px;
+  overflow: auto;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 1);
+}
+
+.endpoint{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 3px;
+}
